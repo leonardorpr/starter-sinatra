@@ -4,7 +4,7 @@ services:
   app:
     build: .
     ports:
-      - "9292:9292"
+      - "9393:9393"
     volumes:
       - ".:/url-shortener"
     environment:

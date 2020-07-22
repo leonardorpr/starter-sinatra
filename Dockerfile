@@ -10,4 +10,4 @@ RUN bundle install
 
 COPY . .
 
-CMD rackup config.ru -o 0.0.0.0
+CMD shotgun config.ru -o 0.0.0.0
